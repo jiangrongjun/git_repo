@@ -5,11 +5,6 @@
  * Date: 2017/2/10
  * Time: 17:26
  */
-
-/*
- * Model负责对数据进行简单的crud操作
- * 自定义模型是为了统一，并且便于添加缓存memcache或者redis等其他工具进行配合。
- */
 namespace app\test\model;
 use think\Model;
 class UserInfo extends Model{

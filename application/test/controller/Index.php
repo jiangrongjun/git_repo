@@ -1,8 +1,5 @@
 <?php
 namespace app\test\controller;
-
-use app\test\model\UserInfo;
-
 class Index
 {
     public function index()
@@ -11,9 +8,5 @@ class Index
     }
 
 
-    public function test(){
-        $userInfo = new UserInfo;
-        echo '<pre>';print_r($userInfo);exit;
-    }
 
 }

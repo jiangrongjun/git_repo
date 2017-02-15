@@ -1,13 +1,9 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Administrator
+ * User: Jiang
  * Date: 2017/2/14
  * Time: 15:00
- */
-
-/*
- * Logic负责代码的核心业务逻辑部分，从继承上看其实它也是Model的一部分，只是为了和基础的crud操作区分，便于复用
  */
 namespace app\test\logic;
 use think\Model;
